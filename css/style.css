@@ -140,3 +140,11 @@ Consigli:
 Apriamo le slide e usiamole come guida per il lavoro, aggiungiamo sempre solo un pezzettino alla volta.
 Per poter vedere correttamente un sito responsive è necessaria l'aggiunta del tag:
 <meta name="viewport" content="width=device-width, initial-scale=1.0"> */
+
+
+@media screen and (max-width: 768px) {
+    .lessons .container, .steps .container, .why-us .container{
+        max-width: 768px;
+    }
+}
+
