@@ -143,8 +143,52 @@ Per poter vedere correttamente un sito responsive è necessaria l'aggiunta del t
 
 
 @media screen and (max-width: 768px) {
-    .lessons .container, .steps .container, .why-us .container{
-        max-width: 768px;
+    .container{ 
+        width: 100vw;
     }
+
 }
+
+@media screen and ( max-width: 480px ) {
+    .container{
+        width: 100vw;
+    }
+
+    .row{
+        flex-wrap: wrap;
+    }
+
+    .lessons .col{
+        width: 100%;
+    }
+
+    .lessons p, .steps p{
+        margin-bottom: 50px;
+    }
+
+    .steps .col{
+        width: 100%;
+
+    }
+
+    .why-us{
+        background-color: black;
+    }
+
+    .why-us .col{
+        width: 100%;
+    }
+
+    .why-us h2, .why-us h3{
+        padding-top: 30px;
+    }
+
+    .why-us, .steps{
+        margin: 0;
+    }
+
+}
+
+
+
 
